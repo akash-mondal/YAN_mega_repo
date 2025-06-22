@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Or "ES2021", "ES2022", "ESNext"
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true, // Can help with type issues in node_modules
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // Optional: specify an output directory for compiled JS
+    "rootDir": "./"    // Specifies the root directory of input files
+  },
+  "include": [
+    "index.ts" // Or "src/**/*.ts" if your code is in a src folder
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
